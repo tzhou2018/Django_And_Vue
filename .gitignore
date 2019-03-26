@@ -1,9 +1,9 @@
 .DS_Store
 appfront/node_modules/
 appfront/test
-test
-user
-user_defined/
+/test
+/user
+/user_defined
 data.json
 test1.db
 
