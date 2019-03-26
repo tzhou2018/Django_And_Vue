@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .liked{
+            background: #a10;
+        }
+    </style>
+</head>
+<body>
+   <div id="app">
+       <like></like>
+   </div>
+<template id="like-component-tpl">
+    <button :class="{liked: liked}" @click="toggle_like">👍{{like_count}}</button>
+</template>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
